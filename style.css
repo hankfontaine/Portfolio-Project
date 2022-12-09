@@ -1,15 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
 body {
-    background-color: rgb(120, 120, 182);
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+header, footer, main {
+    width: 100%;
+}
+
+header, footer {
+    background-color: rgb(54, 129, 129);
+}
+
+header {
+    transform: skewY(-9deg);
+    height: 20vh;
+    overflow: hidden;
+    transform-origin: 0;
+    padding-top: 10vh;
+    box-sizing: border-box;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 15%;
+}
+
+main {
+    position: absolute;
+    top: 25%;
+    bottom: 15vh;
 }
 
 @media (max-width: 1200px) {
     body{
-        background-color: rgb(160, 197, 160);
+        /* background-color: rgb(160, 197, 160); */
     }
 }
 
 @media (max-width: 600px) {
     body{
-        background-color: rgb(184, 116, 116);
+        /* background-color: rgb(184, 116, 116); */
     }
 }
