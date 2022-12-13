@@ -3,6 +3,10 @@
     margin: 0;
   }
 
+li {
+    list-style: none;
+}
+
 body {
     font-family: 'Playfair Display', serif;
     font-family: 'Roboto', sans-serif;
@@ -29,15 +33,17 @@ header {
 footer {
     bottom: 0;
     height: 15vh;
+    color: white;
 }
 
 main {
 }
 
 .project-container {
-    border: 3px solid black;
-    height: 10vh;
-    width: 10vh;
+    margin: 3vh;
+    height: 40vh;
+    width: 40vh;
+    box-shadow: 2px 2px 3px rgb(187, 179, 179);
 }
 
 @media (max-width: 1200px) {
