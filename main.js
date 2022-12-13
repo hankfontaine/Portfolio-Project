@@ -13,8 +13,15 @@ body.appendChild(header)
 /////////////////////////////////////////////////////////////
 
 const main = document.createElement("main")
-main.append("main")
 body.appendChild(main)
+
+const bioContainer = document.createElement("div")
+bioContainer.append("About me.  bio goes here")
+main.appendChild(bioContainer)
+
+const bioLinksContainer = document.createElement("div")
+bioLinksContainer.append("LINKS ")
+main.appendChild(bioLinksContainer)
 
 const projectList = document.createElement("ul")
 projectList.classList.add("project-list")
