@@ -27,15 +27,11 @@ header {
 }
 
 footer {
-    position: absolute;
     bottom: 0;
-    height: 15%;
+    height: 15vh;
 }
 
 main {
-    position: absolute;
-    top: 25%;
-    bottom: 15vh;
 }
 
 .project-container {

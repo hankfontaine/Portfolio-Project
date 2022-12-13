@@ -14,11 +14,10 @@ body.appendChild(footer)
 
 const projectList = document.createElement("ul")
 projectList.classList.add("project-list")
-projectList.append("testlist")
 main.appendChild(projectList)
 
-for (let i = 0; i >= 5; i++) {
-    let div = document.createElement("div")
+for (let i = 0; i <= 5; i++) {
+    let div = document.createElement("li")
     div.classList.add("project-container")
     div.append("test")
     projectList.appendChild(div)
