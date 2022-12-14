@@ -7,6 +7,18 @@ li {
     list-style: none;
 }
 
+image {
+    display: block;
+    width: 50vw;
+    height: auto;
+    overflow: visible;
+}
+
+.header-img {
+    height: 30vh;
+    width: auto;
+}
+
 body {
     font-family: 'Playfair Display', serif;
     font-family: 'Roboto', sans-serif;
@@ -28,6 +40,12 @@ header {
     transform-origin: 0;
     padding-top: 10vh;
     box-sizing: border-box;
+    overflow: visible;
+}
+
+.header-container {
+    transform: skewY(9deg);
+    overflow: visible;
 }
 
 footer {

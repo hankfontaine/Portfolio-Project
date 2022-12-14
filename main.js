@@ -5,12 +5,17 @@ const body = document.querySelector('body');
 /////////////////////////////////////////////////////////////
 
 const header = document.createElement('header');
-header.append('header');
 body.appendChild(header);
 
 const headerContainer = document.createElement('div');
 headerContainer.classList.add('header-container');
+headerContainer.append('header');
 header.appendChild(headerContainer);
+
+const headerImg = document.createElement('img');
+headerImg.src = './images/profile-pic-wide.jpg';
+headerImg.classList.add('header-img');
+headerContainer.appendChild(headerImg);
 
 /////////////////////////////////////////////////////////////
 //////////////////// MAIN COMPONENTS ////////////////////////
