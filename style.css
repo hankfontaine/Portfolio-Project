@@ -8,15 +8,19 @@ li {
 }
 
 image {
-    display: block;
-    width: 50vw;
-    height: auto;
     overflow: visible;
 }
 
 .header-img {
     height: 30vh;
     width: auto;
+}
+
+.header-text {
+    color: white;
+    position: fixed;
+    bottom: 0;
+    
 }
 
 body {

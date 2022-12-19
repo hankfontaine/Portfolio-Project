@@ -17,6 +17,11 @@ headerImg.src = './images/profile-pic-wide.jpg';
 headerImg.classList.add('header-img');
 headerContainer.appendChild(headerImg);
 
+const headerText = document.createElement('div');
+headerText.append('Hank McGill');
+headerText.classList.add('header-text');
+headerImg.appendChild(headerText);
+
 /////////////////////////////////////////////////////////////
 //////////////////// MAIN COMPONENTS ////////////////////////
 /////////////////////////////////////////////////////////////
