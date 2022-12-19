@@ -12,15 +12,19 @@ headerContainer.classList.add('header-container');
 headerContainer.append('header');
 header.appendChild(headerContainer);
 
+const headerImgContainer = document.createElement('div');
+headerImgContainer.classList.add('header-img-container');
+headerContainer.appendChild(headerImgContainer);
+
 const headerImg = document.createElement('img');
 headerImg.src = './images/profile-pic-wide.jpg';
 headerImg.classList.add('header-img');
-headerContainer.appendChild(headerImg);
+headerImgContainer.appendChild(headerImg);
 
 const headerText = document.createElement('div');
 headerText.append('Hank McGill');
 headerText.classList.add('header-text');
-headerImg.appendChild(headerText);
+headerImgContainer.appendChild(headerText);
 
 /////////////////////////////////////////////////////////////
 //////////////////// MAIN COMPONENTS ////////////////////////

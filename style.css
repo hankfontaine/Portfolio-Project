@@ -11,6 +11,10 @@ image {
     overflow: visible;
 }
 
+.header-img-container {
+
+}
+
 .header-img {
     height: 30vh;
     width: auto;
@@ -18,9 +22,10 @@ image {
 
 .header-text {
     color: white;
-    position: fixed;
-    bottom: 0;
-    
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 5vh;
 }
 
 body {
