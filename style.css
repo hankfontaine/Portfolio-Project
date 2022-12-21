@@ -15,7 +15,7 @@ image {
     overflow: hidden;
 }
 
-.header-img {
+.header-img, .footer-img {
     height: 30vh;
     width: auto;
 }
