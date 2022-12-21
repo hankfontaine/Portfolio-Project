@@ -12,7 +12,7 @@ image {
 }
 
 .header-img-container {
-
+    overflow: hidden;
 }
 
 .header-img {
