@@ -64,3 +64,22 @@ footer.append('phone');
 footer.append('email');
 footer.append('links');
 body.appendChild(footer);
+
+const footerContainer = document.createElement('div');
+footerContainer.classList.add('footer-container');
+footerContainer.append('footer');
+footer.appendChild(footerContainer);
+
+const footerImgContainer = document.createElement('div');
+footerImgContainer.classList.add('footer-img-container');
+footerContainer.appendChild(footerImgContainer);
+
+const footerImg = document.createElement('img');
+footerImg.src = './images/profile-pic-wide.jpg';
+footerImg.classList.add('footer-img');
+footerImgContainer.appendChild(footerImg);
+
+const footerText = document.createElement('div');
+footerText.append('Hank McGill');
+footerText.classList.add('footer-text');
+footerImgContainer.appendChild(footerText);
