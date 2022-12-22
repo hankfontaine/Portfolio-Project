@@ -74,6 +74,8 @@ const footerImgContainer = document.createElement('div');
 footerImgContainer.classList.add('footer-img-container');
 footerContainer.appendChild(footerImgContainer);
 
+// needs to be updated to include right specs
+
 const footerImg = document.createElement('img');
 footerImg.src = './images/profile-pic-wide.jpg';
 footerImg.classList.add('footer-img');
