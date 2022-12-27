@@ -57,10 +57,10 @@ header, footer {
     background-color: rgb(54, 129, 129);
 }
 
-footer {
-    bottom: 0;
-    height: 15vh;
-    color: white;
+.about-me-container {
+    background-color: white;
+    height: auto;
+    width: 20vw;
 }
 
 /* MAIN */
@@ -83,6 +83,12 @@ main {
 }
 
 /* FOOTER */
+
+footer {
+    bottom: 0;
+    height: 15vh;
+    color: white;
+}
 
 /* MEDIA QUERIES */
 

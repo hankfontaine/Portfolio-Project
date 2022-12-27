@@ -25,6 +25,15 @@ headerText.append('Hank McGill');
 headerText.classList.add('header-text');
 headerImgContainer.appendChild(headerText);
 
+const aboutMeContainer = document.createElement('div');
+aboutMeContainer.classList.add('about-me-container');
+headerContainer.appendChild(aboutMeContainer);
+
+const aboutMeTitle = document.createElement('div');
+aboutMeTitle.classList.add('about-me-title');
+aboutMeContainer.append('About me');
+aboutMeContainer.appendChild(aboutMeTitle);
+
 /////////////////////////////////////////////////////////////
 //////////////////// MAIN COMPONENTS ////////////////////////
 /////////////////////////////////////////////////////////////
