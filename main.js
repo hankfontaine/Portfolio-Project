@@ -31,11 +31,13 @@ headerContainer.appendChild(aboutMeContainer);
 
 const aboutMeTitle = document.createElement('div');
 aboutMeTitle.classList.add('about-me-title');
-aboutMeContainer.append('About me');
+aboutMeTitle.append('About me');
 aboutMeContainer.appendChild(aboutMeTitle);
 
 const aboutMeText = document.createElement('div');
-aboutMeText.append('Lorem ipsum dolor sit amet consectetur adipisicing elit.');
+aboutMeText.append(
+	'Self-taught web developer, living in NYC. When I am not working on a new project, you can catch me on the beach in Thailand or hanging out in a chic cocktail bar on the Lower East Side!'
+);
 aboutMeContainer.appendChild(aboutMeText);
 /////////////////////////////////////////////////////////////
 //////////////////// MAIN COMPONENTS ////////////////////////
