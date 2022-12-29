@@ -72,6 +72,16 @@ header, footer {
     width: 30vw;
 }
 
+.about-me-footer {
+    display: flex;
+    justify-content:center;
+}
+
+.about-me-svg {
+    width: 4vw;
+    margin: 2vh;
+}
+
 /* MAIN */
 
 
@@ -119,6 +129,9 @@ footer {
     .about-me-container {
         width: 80vw;
     }
+    .about-me-svg {
+        width: 8vw;
+    }
 }
 
 @media (max-width: 600px) {
@@ -138,5 +151,8 @@ footer {
     }
     .about-me-container {
         width: 80vw;
+    }
+    .about-me-svg {
+        width: 8vw;
     }
 }

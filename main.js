@@ -39,6 +39,28 @@ aboutMeText.append(
 	'Self-taught web developer, living in NYC. When I am not working on a new project, you can catch me on the beach in Thailand or hanging out in a chic cocktail bar on the Lower East Side!'
 );
 aboutMeContainer.appendChild(aboutMeText);
+
+const aboutMeFooter = document.createElement('div');
+aboutMeFooter.classList.add('about-me-footer');
+aboutMeContainer.appendChild(aboutMeFooter);
+
+const aboutMeGithub = document.createElement('img');
+aboutMeGithub.src = './icons/github.svg';
+aboutMeGithub.classList.add('about-me-svg');
+aboutMeFooter.appendChild(aboutMeGithub);
+
+const aboutMeLinkedin = document.createElement('img');
+aboutMeLinkedin.src = './icons/linkedin.svg';
+aboutMeLinkedin.classList.add('about-me-svg');
+aboutMeLinkedin.append('LI');
+aboutMeFooter.appendChild(aboutMeLinkedin);
+
+const aboutMeTwitter = document.createElement('img');
+aboutMeTwitter.src = './icons/twitter.svg';
+aboutMeTwitter.classList.add('about-me-svg');
+aboutMeTwitter.append('TW');
+aboutMeFooter.appendChild(aboutMeTwitter);
+
 /////////////////////////////////////////////////////////////
 //////////////////// MAIN COMPONENTS ////////////////////////
 /////////////////////////////////////////////////////////////
