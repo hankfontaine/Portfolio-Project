@@ -12,6 +12,14 @@ image {
     overflow: visible;
 }
 
+div {
+    color: rgb(75, 85, 95)
+}
+
+h1 {
+    color: black;
+}
+
 /* HEADER */
 
 header {
@@ -46,19 +54,16 @@ header {
     top: 50vh;
     font-size: 5vh;
     font-family: 'Playfair Display', serif;
-    font-weight: 100;
     text-shadow: 1px 1px 1px black;
 }
 
 header, footer {
-    background-color: rgb(54, 129, 129);
+    background-color: rgb(80, 117, 164);
 }
 
 .about-me-title {
-    font-size: 5vh;
+    font-size: 2em;
     font-family: 'Playfair Display', serif;
-    font-weight: 100;
-    text-shadow: 1px 1px 1px black;
     margin-left: 3vh;
 }
 

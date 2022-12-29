@@ -29,7 +29,7 @@ const aboutMeContainer = document.createElement('div');
 aboutMeContainer.classList.add('about-me-container');
 headerContainer.appendChild(aboutMeContainer);
 
-const aboutMeTitle = document.createElement('div');
+const aboutMeTitle = document.createElement('h1');
 aboutMeTitle.classList.add('about-me-title');
 aboutMeTitle.append('About me');
 aboutMeContainer.appendChild(aboutMeTitle);
