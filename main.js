@@ -34,6 +34,9 @@ aboutMeTitle.classList.add('about-me-title');
 aboutMeContainer.append('About me');
 aboutMeContainer.appendChild(aboutMeTitle);
 
+const aboutMeText = document.createElement('div');
+aboutMeText.append('Lorem ipsum dolor sit amet consectetur adipisicing elit.');
+aboutMeContainer.appendChild(aboutMeText);
 /////////////////////////////////////////////////////////////
 //////////////////// MAIN COMPONENTS ////////////////////////
 /////////////////////////////////////////////////////////////
