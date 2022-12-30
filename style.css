@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    color: rgb(75, 85, 95)
+    color: rgb(75, 85, 95);
   }
 
 li {
@@ -11,6 +11,15 @@ li {
 
 h1 {
     color: black;
+}
+
+header, footer {
+    background-color: rgb(80, 117, 164);
+}
+
+.header-img, .footer-img {
+    width: 30vw;
+    height: auto;
 }
 
 /* HEADER */
@@ -28,11 +37,8 @@ header {
     overflow: visible;
     width: 90vw;
     margin-left: 10vw;
-}
-
-.header-img, .footer-img {
-    width: 30vw;
-    height: auto;
+    display: flex;
+    align-items: center;
 }
 
 .header-text {
@@ -44,29 +50,28 @@ header {
     text-shadow: 1px 1px 1px black;
 }
 
-header, footer {
-    background-color: rgb(80, 117, 164);
-}
-
 .section-title {
     font-size: 2em;
     font-family: 'Playfair Display', serif;
-    margin-left: 3vh;
+    margin-left: 1vh;
 }
 
 .about-me-container {
     background-color: white;
     width: 30vw;
+    /* height: 30vh; */
+    padding: 10px;
+    box-shadow: .2px .2px 3px rgb(129, 120, 120);
 }
 
 .about-me-footer {
     display: flex;
-    justify-content:center;
+    justify-content:end;
 }
 
 .about-me-svg {
-    width: 4vw;
-    margin: 2vh;
+    width: 2vw;
+    margin: 4vh 2vh 0 0;
 }
 
 /* MAIN */
@@ -112,12 +117,18 @@ footer {
     }
     .header-container {
         margin-top: 5vh;
+        display:block;
     }
     .about-me-container {
         width: 80vw;
+        box-shadow: none;
     }
     .about-me-svg {
         width: 8vw;
+    }
+    .about-me-footer {
+        display: flex;
+        justify-content:center;
     }
 }
 
@@ -135,11 +146,17 @@ footer {
     }
     .header-container {
         margin-top: 5vh;
+        display:block;
     }
     .about-me-container {
         width: 80vw;
+        box-shadow: none;
     }
     .about-me-svg {
         width: 8vw;
+    }
+    .about-me-footer {
+        display: flex;
+        justify-content:center;
     }
 }
