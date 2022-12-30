@@ -2,18 +2,11 @@
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    color: rgb(75, 85, 95)
   }
 
 li {
     list-style: none;
-}
-
-image {
-    overflow: visible;
-}
-
-div {
-    color: rgb(75, 85, 95)
 }
 
 h1 {
@@ -24,12 +17,9 @@ h1 {
 
 header {
     transform: skewY(-9deg);
-    height: 20vh;
-    overflow: hidden;
+    height: 40vh;
     transform-origin: 0;
     padding-top: 5vh;
-    box-sizing: border-box;
-    overflow: visible;
 }
 
 .header-container {
@@ -38,9 +28,6 @@ header {
     overflow: visible;
     width: 90vw;
     margin-left: 10vw;
-}
-
-.header-img-container {
 }
 
 .header-img, .footer-img {
