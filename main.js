@@ -30,7 +30,7 @@ aboutMeContainer.classList.add('about-me-container');
 headerContainer.appendChild(aboutMeContainer);
 
 const aboutMeTitle = document.createElement('h1');
-aboutMeTitle.classList.add('about-me-title');
+aboutMeTitle.classList.add('section-title');
 aboutMeTitle.append('About me');
 aboutMeContainer.appendChild(aboutMeTitle);
 
@@ -65,16 +65,17 @@ aboutMeFooter.appendChild(aboutMeTwitter);
 //////////////////// MAIN COMPONENTS ////////////////////////
 /////////////////////////////////////////////////////////////
 
-// const main = document.createElement('main');
-// body.appendChild(main);
+const main = document.createElement('main');
+body.appendChild(main);
 
-// const bioContainer = document.createElement('div');
-// bioContainer.append('About me.  bio goes here');
-// main.appendChild(bioContainer);
+const mainContainer = document.createElement('div');
+mainContainer.classList.add('main-container');
+main.appendChild(mainContainer);
 
-// const bioLinksContainer = document.createElement('div');
-// bioLinksContainer.append('LINKS ');
-// main.appendChild(bioLinksContainer);
+const myProjectsTitle = document.createElement('h1');
+myProjectsTitle.classList.add('section-title');
+myProjectsTitle.append('My Projects');
+mainContainer.appendChild(myProjectsTitle);
 
 // const projectList = document.createElement('ul');
 // projectList.classList.add('project-list');
