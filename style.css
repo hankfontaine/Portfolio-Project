@@ -76,7 +76,6 @@ header {
 
 /* MAIN */
 
-
 body {
     font-family: 'Playfair Display', serif;
     font-family: 'Roboto', sans-serif;
@@ -84,6 +83,7 @@ body {
 }
 
 main {
+    margin-top: 40vh;
 }
 
 .project-container {
