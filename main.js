@@ -44,9 +44,11 @@ const aboutMeFooter = document.createElement('div');
 aboutMeFooter.classList.add('about-me-footer');
 aboutMeContainer.appendChild(aboutMeFooter);
 
-const aboutMeGithub = document.createElement('img');
-aboutMeGithub.src = './icons/github.svg';
+const aboutMeGithub = document.createElement('a');
+aboutMeGithub.setAttribute('href', 'https://github.com/hankfontaine/');
+aboutMeGithub.setAttribute('target', '_blank');
 aboutMeGithub.classList.add('about-me-svg');
+aboutMeGithub.classList.add('about-me-github');
 aboutMeFooter.appendChild(aboutMeGithub);
 
 const aboutMeLinkedin = document.createElement('img');

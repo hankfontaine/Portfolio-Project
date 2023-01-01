@@ -74,6 +74,11 @@ header {
     margin: 4vh 2vh 0 0;
 }
 
+.about-me-github {
+    background-image: url('./icons/github.svg');
+    background-size: 2vw;
+}
+
 /* MAIN */
 
 body {
