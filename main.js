@@ -51,16 +51,21 @@ aboutMeGithub.classList.add('about-me-svg');
 aboutMeGithub.classList.add('about-me-github');
 aboutMeFooter.appendChild(aboutMeGithub);
 
-const aboutMeLinkedin = document.createElement('img');
-aboutMeLinkedin.src = './icons/linkedin.svg';
+const aboutMeLinkedin = document.createElement('a');
+aboutMeLinkedin.setAttribute(
+	'href',
+	'https://www.linkedin.com/in/hank-mcgill-999750184/'
+);
+aboutMeLinkedin.setAttribute('target', '_blank');
 aboutMeLinkedin.classList.add('about-me-svg');
-aboutMeLinkedin.append('LI');
+aboutMeLinkedin.classList.add('about-me-linkedin');
 aboutMeFooter.appendChild(aboutMeLinkedin);
 
-const aboutMeTwitter = document.createElement('img');
-aboutMeTwitter.src = './icons/twitter.svg';
+const aboutMeTwitter = document.createElement('a');
+aboutMeTwitter.setAttribute('href', 'https://www.twitter.com/hankfontaine/');
+aboutMeTwitter.setAttribute('target', '_blank');
 aboutMeTwitter.classList.add('about-me-svg');
-aboutMeTwitter.append('TW');
+aboutMeTwitter.classList.add('about-me-twitter');
 aboutMeFooter.appendChild(aboutMeTwitter);
 
 /////////////////////////////////////////////////////////////

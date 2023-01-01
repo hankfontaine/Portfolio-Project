@@ -71,11 +71,22 @@ header {
 
 .about-me-svg {
     width: 2vw;
+    height: 2vw;
     margin: 4vh 2vh 0 0;
 }
 
 .about-me-github {
     background-image: url('./icons/github.svg');
+    background-size: 2vw;
+}
+
+.about-me-linkedin {
+    background-image: url('./icons/linkedin.svg');
+    background-size: 2vw;
+}
+
+.about-me-twitter {
+    background-image: url('./icons/twitter.svg');
     background-size: 2vw;
 }
 
