@@ -44,8 +44,8 @@ header {
 .header-text {
     color: white;
     position: absolute;
-    bottom: 8px;
-    left: 5px;
+    bottom: 2vh;
+    left: 2vh;
     font-size: 5vh;
     font-family: 'Playfair Display', serif;
     text-shadow: 1px 1px 1px black;
@@ -136,7 +136,8 @@ footer {
         height: auto;
     }
     .header-text {
-        /* top: 50vh; */
+        bottom: 4vh;
+        left: 2vh;
         font-size: 5vh;
     }
     .header-container {
