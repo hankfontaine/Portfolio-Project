@@ -116,7 +116,6 @@ main {
     width: 30vw;
     /* height: 30vh; */
     padding: 10px;
-    box-shadow: .2px .2px 3px rgb(129, 120, 120);
 }
 
 /* FOOTER */
@@ -138,7 +137,7 @@ footer {
         height: auto;
     }
     .header-text {
-        top: 40vh;
+        top: 50vh;
         font-size: 5vh;
     }
     .header-container {

@@ -81,7 +81,7 @@ main.appendChild(mainContainer);
 
 const myProjectsTitle = document.createElement('h1');
 myProjectsTitle.classList.add('section-title');
-myProjectsTitle.append('My Projects');
+myProjectsTitle.append('My work');
 mainContainer.appendChild(myProjectsTitle);
 
 // const projectList = document.createElement('ul');
