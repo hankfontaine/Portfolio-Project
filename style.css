@@ -44,7 +44,8 @@ header {
 .header-text {
     color: white;
     position: absolute;
-    top: 50vh;
+    bottom: 8px;
+    left: 5px;
     font-size: 5vh;
     font-family: 'Playfair Display', serif;
     text-shadow: 1px 1px 1px black;
@@ -59,7 +60,6 @@ header {
 .about-me-container {
     background-color: white;
     width: 30vw;
-    /* height: 30vh; */
     padding: 10px;
     box-shadow: .2px .2px 3px rgb(129, 120, 120);
 }
@@ -114,15 +114,14 @@ main {
 
 .main-container {
     width: 30vw;
-    /* height: 30vh; */
     padding: 10px;
+    margin: 2vh;
 }
 
 /* FOOTER */
 
 footer {
     bottom: 0;
-    /* height: 15vh; */
     color: white;
 }
 
@@ -137,7 +136,7 @@ footer {
         height: auto;
     }
     .header-text {
-        top: 50vh;
+        /* top: 50vh; */
         font-size: 5vh;
     }
     .header-container {
@@ -168,7 +167,8 @@ footer {
         height: auto;
     }
     .header-text {
-        top: 40vh;
+        /* top: 40vh; */
+        /* bottom: 0; */
         font-size: 5vh;
     }
     .header-container {
