@@ -150,7 +150,9 @@ footer {
         box-shadow: none;
     }
     .about-me-svg {
-        width: 8vw;
+        background-size: 5vw;
+        height: 5vw;
+        width: 5vw;
     }
     .about-me-footer {
         display: flex;
@@ -179,7 +181,9 @@ footer {
         box-shadow: none;
     }
     .about-me-svg {
-        width: 8vw;
+        background-size: 5vw;
+        height: 5vw;
+        width: 5vw;
     }
     .about-me-footer {
         display: flex;
