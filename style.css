@@ -143,8 +143,7 @@ footer {
     }
     .header-container {
         margin-top: 10vh;
-        display:block;
-        margin-left: 10vw;
+        flex-direction: column;
     }
     .about-me-container {
         width: 80vw;
@@ -173,8 +172,7 @@ footer {
     }
     .header-container {
         margin-top: 10vh;
-        display:block;
-        margin-left: 10vw;
+        flex-direction: column;
     }
     .about-me-container {
         width: 80vw;
