@@ -84,17 +84,17 @@ myProjectsTitle.classList.add('section-title');
 myProjectsTitle.append('My work');
 mainContainer.appendChild(myProjectsTitle);
 
-// const projectList = document.createElement('ul');
-// projectList.classList.add('project-list');
-// main.appendChild(projectList);
+const projectList = document.createElement('ul');
+projectList.classList.add('project-list');
+main.appendChild(projectList);
 
-// for (let i = 0; i < 1; i++) {
-// 	let div = document.createElement('li');
-// 	div.classList.add('project-container');
-// 	div.append('test');
+for (let i = 0; i < 1; i++) {
+	let div = document.createElement('li');
+	div.classList.add('project-container');
+	div.append('test');
 
-// 	projectList.appendChild(div);
-// }
+	projectList.appendChild(div);
+}
 /////////////////////////////////////////////////////////////
 ///////////////////// FOOTER COMPONENTS /////////////////////
 /////////////////////////////////////////////////////////////
