@@ -134,6 +134,16 @@ contactMeAddress.append('314 S 4th St Brooklyn NY 11211');
 contactMeAddress.classList.add('footer-text');
 footerContactContainer.appendChild(contactMeAddress);
 
+const contactMePhone = document.createElement('h3');
+contactMePhone.append('805-210-0238');
+contactMePhone.classList.add('footer-text');
+footerContactContainer.appendChild(contactMePhone);
+
+const contactMeEmail = document.createElement('h3');
+contactMeEmail.append('henrymcgill@gmail.com');
+contactMeEmail.classList.add('footer-text');
+footerContactContainer.appendChild(contactMeEmail);
+
 // const footerImgContainer = document.createElement('div');
 // footerImgContainer.classList.add('footer-img-container');
 // footerContainer.appendChild(footerImgContainer);
