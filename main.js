@@ -144,6 +144,38 @@ contactMeEmail.append('henrymcgill@gmail.com');
 contactMeEmail.classList.add('footer-text');
 footerContactContainer.appendChild(contactMeEmail);
 
+const footerLinks = document.createElement('div');
+footerLinks.classList.add('footer-links');
+footerLinks.append('test');
+footerContactContainer.appendChild(footerLinks);
+
+const footerGithub = document.createElement('a');
+footerGithub.setAttribute('href', 'https://github.com/hankfontaine/');
+footerGithub.setAttribute('target', '_blank');
+footerGithub.classList.add('about-me-svg');
+footerGithub.classList.add('about-me-github');
+footerGithub.append('test1');
+footerLinks.appendChild(footerGithub);
+
+const footerLinkedin = document.createElement('a');
+footerLinkedin.setAttribute(
+	'href',
+	'https://www.linkedin.com/in/hank-mcgill-999750184/'
+);
+footerLinkedin.setAttribute('target', '_blank');
+footerLinkedin.classList.add('about-me-svg');
+footerLinkedin.classList.add('about-me-linkedin');
+footerLinkedin.append('test2');
+footerLinks.appendChild(footerLinkedin);
+
+const footerTwitter = document.createElement('a');
+footerTwitter.setAttribute('href', 'https://www.twitter.com/hankfontaine/');
+footerTwitter.setAttribute('target', '_blank');
+footerTwitter.classList.add('about-me-svg');
+footerTwitter.classList.add('about-me-twitter');
+footerTwitter.append('test3');
+footerLinks.appendChild(footerTwitter);
+
 // const footerImgContainer = document.createElement('div');
 // footerImgContainer.classList.add('footer-img-container');
 // footerContainer.appendChild(footerImgContainer);

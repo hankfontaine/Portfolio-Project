@@ -150,6 +150,10 @@ footer {
     font-size: 1.5em;
 }
 
+.footer-links {
+    width: 30vw;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 1200px) {
