@@ -96,11 +96,19 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 main {
     margin-top: 40vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .project-container {
@@ -111,9 +119,11 @@ main {
 }
 
 .main-container {
-    width: 30vw;
     padding: 10px;
     margin: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* FOOTER */
