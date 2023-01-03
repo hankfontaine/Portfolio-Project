@@ -155,6 +155,11 @@ footer {
         display: flex;
         justify-content:center;
     }
+    .section-title {
+        margin-left: 0;
+        font-size: 2em;
+        width: 100vw;
+    }
 }
 
 @media (max-width: 600px) {
@@ -180,9 +185,5 @@ footer {
         background-size: 5vw;
         height: 5vw;
         width: 5vw;
-    }
-    .about-me-footer {
-        display: flex;
-        justify-content:center;
     }
 }

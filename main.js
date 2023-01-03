@@ -44,45 +44,45 @@ const aboutMeFooter = document.createElement('div');
 aboutMeFooter.classList.add('about-me-footer');
 aboutMeContainer.appendChild(aboutMeFooter);
 
-// const aboutMeGithub = document.createElement('a');
-// aboutMeGithub.setAttribute('href', 'https://github.com/hankfontaine/');
-// aboutMeGithub.setAttribute('target', '_blank');
-// aboutMeGithub.classList.add('about-me-svg');
-// aboutMeGithub.classList.add('about-me-github');
-// aboutMeFooter.appendChild(aboutMeGithub);
+const aboutMeGithub = document.createElement('a');
+aboutMeGithub.setAttribute('href', 'https://github.com/hankfontaine/');
+aboutMeGithub.setAttribute('target', '_blank');
+aboutMeGithub.classList.add('about-me-svg');
+aboutMeGithub.classList.add('about-me-github');
+aboutMeFooter.appendChild(aboutMeGithub);
 
-// const aboutMeLinkedin = document.createElement('a');
-// aboutMeLinkedin.setAttribute(
-// 	'href',
-// 	'https://www.linkedin.com/in/hank-mcgill-999750184/'
-// );
-// aboutMeLinkedin.setAttribute('target', '_blank');
-// aboutMeLinkedin.classList.add('about-me-svg');
-// aboutMeLinkedin.classList.add('about-me-linkedin');
-// aboutMeFooter.appendChild(aboutMeLinkedin);
+const aboutMeLinkedin = document.createElement('a');
+aboutMeLinkedin.setAttribute(
+	'href',
+	'https://www.linkedin.com/in/hank-mcgill-999750184/'
+);
+aboutMeLinkedin.setAttribute('target', '_blank');
+aboutMeLinkedin.classList.add('about-me-svg');
+aboutMeLinkedin.classList.add('about-me-linkedin');
+aboutMeFooter.appendChild(aboutMeLinkedin);
 
-// const aboutMeTwitter = document.createElement('a');
-// aboutMeTwitter.setAttribute('href', 'https://www.twitter.com/hankfontaine/');
-// aboutMeTwitter.setAttribute('target', '_blank');
-// aboutMeTwitter.classList.add('about-me-svg');
-// aboutMeTwitter.classList.add('about-me-twitter');
-// aboutMeFooter.appendChild(aboutMeTwitter);
+const aboutMeTwitter = document.createElement('a');
+aboutMeTwitter.setAttribute('href', 'https://www.twitter.com/hankfontaine/');
+aboutMeTwitter.setAttribute('target', '_blank');
+aboutMeTwitter.classList.add('about-me-svg');
+aboutMeTwitter.classList.add('about-me-twitter');
+aboutMeFooter.appendChild(aboutMeTwitter);
 
 /////////////////////////////////////////////////////////////
 //////////////////// MAIN COMPONENTS ////////////////////////
 /////////////////////////////////////////////////////////////
 
-// const main = document.createElement('main');
-// body.appendChild(main);
+const main = document.createElement('main');
+body.appendChild(main);
 
-// const mainContainer = document.createElement('div');
-// mainContainer.classList.add('main-container');
-// main.appendChild(mainContainer);
+const mainContainer = document.createElement('div');
+mainContainer.classList.add('main-container');
+main.appendChild(mainContainer);
 
-// const myProjectsTitle = document.createElement('h1');
-// myProjectsTitle.classList.add('section-title');
-// myProjectsTitle.append('My work');
-// mainContainer.appendChild(myProjectsTitle);
+const myProjectsTitle = document.createElement('h1');
+myProjectsTitle.classList.add('section-title');
+myProjectsTitle.append('My work');
+mainContainer.appendChild(myProjectsTitle);
 
 // const projectList = document.createElement('ul');
 // projectList.classList.add('project-list');
