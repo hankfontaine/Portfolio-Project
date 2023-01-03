@@ -34,15 +34,15 @@ aboutMeTitle.classList.add('section-title');
 aboutMeTitle.append('About me');
 aboutMeContainer.appendChild(aboutMeTitle);
 
-// const aboutMeText = document.createElement('div');
-// aboutMeText.append(
-// 	'Self-taught web developer, living in NYC. When I am not working on a new project, you can catch me on the beach in Thailand or hanging out in a chic cocktail bar on the Lower East Side!'
-// );
-// aboutMeContainer.appendChild(aboutMeText);
+const aboutMeText = document.createElement('div');
+aboutMeText.append(
+	'Self-taught web developer, living in NYC. When I am not working on a new project, you can catch me on the beach in Thailand or hanging out in a chic cocktail bar on the Lower East Side!'
+);
+aboutMeContainer.appendChild(aboutMeText);
 
-// const aboutMeFooter = document.createElement('div');
-// aboutMeFooter.classList.add('about-me-footer');
-// aboutMeContainer.appendChild(aboutMeFooter);
+const aboutMeFooter = document.createElement('div');
+aboutMeFooter.classList.add('about-me-footer');
+aboutMeContainer.appendChild(aboutMeFooter);
 
 // const aboutMeGithub = document.createElement('a');
 // aboutMeGithub.setAttribute('href', 'https://github.com/hankfontaine/');
