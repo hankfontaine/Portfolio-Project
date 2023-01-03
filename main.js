@@ -92,7 +92,6 @@ for (let i = 0; i < 6; i++) {
 	let div = document.createElement('li');
 	div.classList.add('project-container');
 	div.append('testbox');
-
 	projectList.appendChild(div);
 }
 
@@ -100,19 +99,28 @@ for (let i = 0; i < 6; i++) {
 ///////////////////// FOOTER COMPONENTS /////////////////////
 /////////////////////////////////////////////////////////////
 
-// const footer = document.createElement('footer');
+const footer = document.createElement('footer');
+body.appendChild(footer);
 // footer.append('CONTACT ME');
 // footer.append('name');
 // footer.append('address');
 // footer.append('phone');
 // footer.append('email');
 // footer.append('links');
-// body.appendChild(footer);
 
-// const footerContainer = document.createElement('div');
-// footerContainer.classList.add('footer-container');
-// footerContainer.append('footer');
-// footer.appendChild(footerContainer);
+const footerContainer = document.createElement('div');
+footerContainer.classList.add('footer-container');
+footer.appendChild(footerContainer);
+
+const footerContactContainer = document.createElement('div');
+footerContactContainer.classList.add('footer-contact-container');
+footerContainer.appendChild(footerContactContainer);
+
+const contactMeTitle = document.createElement('h1');
+contactMeTitle.classList.add('section-title');
+contactMeTitle.classList.add('footer-text');
+contactMeTitle.append('Contact me');
+footerContactContainer.appendChild(contactMeTitle);
 
 // const footerImgContainer = document.createElement('div');
 // footerImgContainer.classList.add('footer-img-container');
