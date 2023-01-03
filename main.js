@@ -86,16 +86,15 @@ mainContainer.appendChild(myProjectsTitle);
 
 const projectList = document.createElement('ul');
 projectList.classList.add('project-list');
-projectList.append('test');
 mainContainer.appendChild(projectList);
 
-// for (let i = 0; i < 6; i++) {
-// 	let div = document.createElement('li');
-// 	div.classList.add('project-container');
-// 	div.append('test');
+for (let i = 0; i < 6; i++) {
+	let div = document.createElement('li');
+	div.classList.add('project-container');
+	div.append('testbox');
 
-// 	projectList.appendChild(div);
-// }
+	projectList.appendChild(div);
+}
 
 /////////////////////////////////////////////////////////////
 ///////////////////// FOOTER COMPONENTS /////////////////////
