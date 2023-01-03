@@ -27,12 +27,12 @@ headerImgContainer.appendChild(headerText);
 
 const aboutMeContainer = document.createElement('div');
 aboutMeContainer.classList.add('about-me-container');
-headerContainer.appendChild(aboutMeContainer);
+header.appendChild(aboutMeContainer);
 
-// const aboutMeTitle = document.createElement('h1');
-// aboutMeTitle.classList.add('section-title');
-// aboutMeTitle.append('About me');
-// aboutMeContainer.appendChild(aboutMeTitle);
+const aboutMeTitle = document.createElement('h1');
+aboutMeTitle.classList.add('section-title');
+aboutMeTitle.append('About me');
+aboutMeContainer.appendChild(aboutMeTitle);
 
 // const aboutMeText = document.createElement('div');
 // aboutMeText.append(

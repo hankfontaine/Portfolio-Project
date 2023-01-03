@@ -58,9 +58,7 @@ header {
 }
 
 .about-me-container {
-    background-color: white;
-    width: 30vw;
-    padding: 10px;
+    transform: skewY(9deg);
     box-shadow: .2px .2px 3px rgb(129, 120, 120);
 }
 
@@ -136,7 +134,7 @@ footer {
         height: auto;
     }
     .header-text {
-        bottom: 4vh;
+        bottom: 2vh;
         left: 2vh;
         font-size: 5vh;
     }
@@ -166,11 +164,6 @@ footer {
     .header-img, .footer-img {
         width: 80vw;
         height: auto;
-    }
-    .header-text {
-        /* top: 40vh; */
-        /* bottom: 0; */
-        font-size: 5vh;
     }
     .header-container {
         margin-top: 10vh;
