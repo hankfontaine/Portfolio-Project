@@ -27,7 +27,7 @@ headerImgContainer.appendChild(headerText);
 
 const aboutMeContainer = document.createElement('div');
 aboutMeContainer.classList.add('about-me-container');
-header.appendChild(aboutMeContainer);
+headerContainer.appendChild(aboutMeContainer);
 
 const aboutMeTitle = document.createElement('h1');
 aboutMeTitle.classList.add('section-title');

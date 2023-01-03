@@ -58,7 +58,6 @@ header {
 }
 
 .about-me-container {
-    transform: skewY(9deg);
     box-shadow: .2px .2px 3px rgb(129, 120, 120);
 }
 
