@@ -108,10 +108,11 @@ main {
 .project-list {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    justify-content: center;
 }
 
 .project-container {
+    box-sizing: border-box;
     margin: 3vh;
     height: 40vh;
     width: 40vh;
