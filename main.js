@@ -122,6 +122,18 @@ contactMeTitle.classList.add('footer-text');
 contactMeTitle.append('Contact me');
 footerContactContainer.appendChild(contactMeTitle);
 
+const contactMeBio = document.createElement('h3');
+contactMeBio.append(
+	'Please get in touch if you think our work could be mutually beneficial!'
+);
+contactMeBio.classList.add('footer-text');
+footerContactContainer.appendChild(contactMeBio);
+
+const contactMeAddress = document.createElement('h3');
+contactMeAddress.append('314 S 4th St Brooklyn NY 11211');
+contactMeAddress.classList.add('footer-text');
+footerContactContainer.appendChild(contactMeAddress);
+
 // const footerImgContainer = document.createElement('div');
 // footerImgContainer.classList.add('footer-img-container');
 // footerContainer.appendChild(footerImgContainer);
