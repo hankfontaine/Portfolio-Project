@@ -133,7 +133,7 @@ footer {
         height: auto;
     }
     .header-text {
-        bottom: 2vh;
+        top: 45vh;
         left: 2vh;
         font-size: 5vh;
     }
@@ -159,6 +159,9 @@ footer {
 @media (max-width: 600px) {
     body{
         /* background-color: rgb(184, 116, 116); */
+    }
+    .header-text {
+        top: 30vh;
     }
     .header-img, .footer-img {
         width: 80vw;
