@@ -191,6 +191,7 @@ footer {
     .about-me-footer {
         display: flex;
         justify-content:center;
+        margin-left: 4vw;
     }
     .section-title {
         margin-left: 0;
@@ -200,6 +201,11 @@ footer {
     .footer-text {
         text-align: center;
         width: auto;
+    }
+    .footer-links {
+        display: flex;
+        justify-content: center;
+        margin-left: 4vw;
     }
 }
 
