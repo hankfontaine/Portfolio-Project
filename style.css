@@ -17,6 +17,12 @@ h3 {
     font-weight: 100;
 }
 
+h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    color: black;
+}
+
 header, footer {
     background-color: rgb(80, 117, 164);
     background-color: rgba(62, 154, 182, 0.898);
@@ -164,12 +170,6 @@ main {
     margin-right: 0.8vw;
 }
 
-h4 {
-        font-family: 'Playfair Display', serif;
-        font-size: 1.5em;
-        color: black;
-}
-
 .project-desc-container {
     padding: 3vh;
 }
@@ -238,7 +238,7 @@ footer {
     .about-me-footer {
         display: flex;
         justify-content:center;
-        margin-left: 4vw;
+        margin: 4vw;
     }
     .section-title {
         margin-left: 0;
