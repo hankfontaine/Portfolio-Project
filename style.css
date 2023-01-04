@@ -216,7 +216,7 @@ footer {
         flex-direction: column;
         height: 110vh;
         padding: 5vh;
-        padding-bottom: 8vh;
+        padding-bottom: 10vh;
     }
 }
 
@@ -225,7 +225,7 @@ footer {
         /* background-color: rgb(184, 116, 116); */
     }
     .header-text {
-        top: 33vh;
+        top: 31vh;
     }
     .header-img, .footer-img {
         width: 80vw;
