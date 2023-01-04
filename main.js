@@ -35,6 +35,7 @@ aboutMeTitle.append('About me');
 aboutMeContainer.appendChild(aboutMeTitle);
 
 const aboutMeText = document.createElement('div');
+aboutMeText.classList.add('about-me-text');
 aboutMeText.append(
 	'Self-taught web developer, living in NYC. When I am not working on a new project, you can catch me on the beach in Thailand or hanging out in a chic cocktail bar on the Lower East Side!'
 );

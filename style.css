@@ -24,7 +24,6 @@ h3 {
 }
 
 header, footer {
-    background-color: rgb(80, 117, 164);
     background-color: rgba(62, 154, 182, 0.898);
 }
 
@@ -228,6 +227,7 @@ footer {
         flex-direction: column;
     }
     .about-me-container {
+        width: 80vw;
         box-shadow: none;
     }
     .about-me-svg {
@@ -235,6 +235,10 @@ footer {
         height: 12vw;
         width: 12vw;
     }
+    .about-me-text {
+        font-size: 1.8em;
+    }
+
     .about-me-footer {
         display: flex;
         justify-content:center;
@@ -288,5 +292,8 @@ footer {
     .about-me-container {
         width: 80vw;
         box-shadow: none;
+    }
+    .about-me-text {
+        font-size: inherit;
     }
 }
