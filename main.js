@@ -89,10 +89,42 @@ projectList.classList.add('project-list');
 mainContainer.appendChild(projectList);
 
 for (let i = 0; i < 6; i++) {
-	let div = document.createElement('li');
-	div.classList.add('project-container');
-	div.append('testbox');
-	projectList.appendChild(div);
+	let project = document.createElement('li');
+	project.classList.add('project-container');
+	projectList.appendChild(project);
+
+	const projectScreenshot = document.createElement('div');
+	projectScreenshot.classList.add('project-screenshot');
+	projectScreenshot.append('screenshot of project');
+	project.appendChild(projectScreenshot);
+
+	const projectHeader = document.createElement('div');
+	projectHeader.classList.add('project-header');
+	project.appendChild(projectHeader);
+
+	const projectTitle = document.createElement('h4');
+	projectTitle.append('Project name');
+	projectHeader.appendChild(projectTitle);
+
+	const projectGithub = document.createElement('a');
+	projectGithub.setAttribute('href', 'https://github.com/hankfontaine/');
+	projectGithub.setAttribute('target', '_blank');
+	projectGithub.classList.add('about-me-svg');
+	projectGithub.classList.add('about-me-github');
+	projectHeader.appendChild(projectGithub);
+
+	const projectLive = document.createElement('a');
+	projectLive.setAttribute('href', 'https://github.com/hankfontaine/');
+	projectLive.setAttribute('target', '_blank');
+	projectLive.classList.add('about-me-svg');
+	projectLive.classList.add('about-me-github');
+	projectHeader.appendChild(projectLive);
+
+	const projectDesc = document.createElement('div');
+	projectDesc.append(
+		'Short description of the project.  Just a couple sentences will do.'
+	);
+	project.appendChild(projectDesc);
 }
 
 /////////////////////////////////////////////////////////////
