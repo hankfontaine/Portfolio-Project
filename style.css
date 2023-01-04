@@ -181,13 +181,12 @@ footer {
         flex-direction: column;
     }
     .about-me-container {
-        width: 80vw;
         box-shadow: none;
     }
     .about-me-svg {
-        background-size: 5vw;
-        height: 5vw;
-        width: 5vw;
+        background-size: 12vw;
+        height: 12vw;
+        width: 12vw;
     }
     .about-me-footer {
         display: flex;
@@ -223,9 +222,9 @@ footer {
         width: 80vw;
         box-shadow: none;
     }
-    .about-me-svg {
+    /* .about-me-svg {
         background-size: 5vw;
         height: 5vw;
         width: 5vw;
-    }
+    } */
 }
