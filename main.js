@@ -146,7 +146,7 @@ footerContactContainer.appendChild(contactMeEmail);
 
 const footerLinks = document.createElement('div');
 footerLinks.classList.add('footer-links');
-footerLinks.append('test');
+footerLinks.classList.add('footer-text');
 footerContactContainer.appendChild(footerLinks);
 
 const footerGithub = document.createElement('a');
