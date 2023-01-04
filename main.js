@@ -101,12 +101,6 @@ for (let i = 0; i < 6; i++) {
 
 const footer = document.createElement('footer');
 body.appendChild(footer);
-// footer.append('CONTACT ME');
-// footer.append('name');
-// footer.append('address');
-// footer.append('phone');
-// footer.append('email');
-// footer.append('links');
 
 const footerContainer = document.createElement('div');
 footerContainer.classList.add('footer-container');
@@ -176,18 +170,11 @@ footerTwitter.classList.add('about-me-twitter');
 footerTwitter.classList.add('footer-svg');
 footerLinks.appendChild(footerTwitter);
 
-// const footerImgContainer = document.createElement('div');
-// footerImgContainer.classList.add('footer-img-container');
-// footerContainer.appendChild(footerImgContainer);
+const footerImgContainer = document.createElement('div');
+footerImgContainer.classList.add('header-img-container');
+footerContainer.appendChild(footerImgContainer);
 
-// needs to be updated to include right specs
-
-// const footerImg = document.createElement('img');
-// footerImg.src = './images/profile-pic-wide.jpg';
-// footerImg.classList.add('footer-img');
-// footerImgContainer.appendChild(footerImg);
-
-// const footerText = document.createElement('div');
-// footerText.append('Hank McGill');
-// footerText.classList.add('footer-text');
-// footerImgContainer.appendChild(footerText);
+const footerImg = document.createElement('img');
+footerImg.src = './images/profile-pic-wide.jpg';
+footerImg.classList.add('header-img');
+footerImgContainer.appendChild(footerImg);

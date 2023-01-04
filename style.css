@@ -140,7 +140,11 @@ footer {
 
 .footer-container {
     height: 80vh;
-    padding: 5vh;
+    /* padding: 5vh; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
 }
 
 .footer-text {
@@ -206,6 +210,11 @@ footer {
         display: flex;
         justify-content: center;
         margin-left: 4vw;
+    }
+    .footer-container {
+        flex-direction: column;
+        height: 110vh;
+        padding: 5vh;
     }
 }
 
