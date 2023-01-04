@@ -154,6 +154,13 @@ footer {
     display: flex;
 }
 
+.footer-svg {
+    width: 4vw;
+    height: 4vw;
+    margin: 4vh 2vh 0 0;
+    background-size: 4vw;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 1200px) {
