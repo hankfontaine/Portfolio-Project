@@ -106,7 +106,7 @@ for (let i = 0; i < 6; i++) {
 	projectHeader.classList.add('project-header');
 	projectDescContainer.appendChild(projectHeader);
 
-	const projectTitle = document.createElement('h4');
+	const projectTitle = document.createElement('h3');
 	projectTitle.append('Project name');
 	projectHeader.appendChild(projectTitle);
 
@@ -156,24 +156,24 @@ contactMeTitle.classList.add('footer-text');
 contactMeTitle.append('Contact me');
 footerContactContainer.appendChild(contactMeTitle);
 
-const contactMeBio = document.createElement('h3');
+const contactMeBio = document.createElement('h2');
 contactMeBio.append(
 	'Please get in touch if you think our work could be mutually beneficial!'
 );
 contactMeBio.classList.add('footer-text');
 footerContactContainer.appendChild(contactMeBio);
 
-const contactMeAddress = document.createElement('h3');
+const contactMeAddress = document.createElement('h2');
 contactMeAddress.append('314 S 4th St Brooklyn NY 11211');
 contactMeAddress.classList.add('footer-text');
 footerContactContainer.appendChild(contactMeAddress);
 
-const contactMePhone = document.createElement('h3');
+const contactMePhone = document.createElement('h2');
 contactMePhone.append('805-210-0238');
 contactMePhone.classList.add('footer-text');
 footerContactContainer.appendChild(contactMePhone);
 
-const contactMeEmail = document.createElement('h3');
+const contactMeEmail = document.createElement('h2');
 contactMeEmail.append('henrymcgill@gmail.com');
 contactMeEmail.classList.add('footer-text');
 footerContactContainer.appendChild(contactMeEmail);
