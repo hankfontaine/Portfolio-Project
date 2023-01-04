@@ -245,6 +245,14 @@ footer {
         font-size: 2em;
         width: 50vw;
     }
+
+    .project-svg {
+        background-size: 4vw;
+        width: 4vw;
+        height: 4vw;
+        margin-right: 0.8vw;
+    }
+
     .footer-text {
         text-align: center;
         width: auto;
