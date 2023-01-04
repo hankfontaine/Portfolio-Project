@@ -154,7 +154,6 @@ footerGithub.setAttribute('href', 'https://github.com/hankfontaine/');
 footerGithub.setAttribute('target', '_blank');
 footerGithub.classList.add('about-me-svg');
 footerGithub.classList.add('about-me-github');
-footerGithub.append('test1');
 footerLinks.appendChild(footerGithub);
 
 const footerLinkedin = document.createElement('a');
@@ -165,7 +164,6 @@ footerLinkedin.setAttribute(
 footerLinkedin.setAttribute('target', '_blank');
 footerLinkedin.classList.add('about-me-svg');
 footerLinkedin.classList.add('about-me-linkedin');
-footerLinkedin.append('test2');
 footerLinks.appendChild(footerLinkedin);
 
 const footerTwitter = document.createElement('a');
@@ -173,7 +171,6 @@ footerTwitter.setAttribute('href', 'https://www.twitter.com/hankfontaine/');
 footerTwitter.setAttribute('target', '_blank');
 footerTwitter.classList.add('about-me-svg');
 footerTwitter.classList.add('about-me-twitter');
-footerTwitter.append('test3');
 footerLinks.appendChild(footerTwitter);
 
 // const footerImgContainer = document.createElement('div');
