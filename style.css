@@ -70,6 +70,7 @@ header {
 .about-me-container {
     box-shadow: .2px .2px 3px rgb(129, 120, 120);
     width: 30vw;
+    padding: 2vh;
 }
 
 .about-me-footer {
