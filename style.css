@@ -128,7 +128,7 @@ main {
 .project-container {
     box-sizing: border-box;
     margin: 3vh;
-    height: 40vh;
+    height: 50vh;
     width: 40vh;
     box-shadow: 2px 2px 3px rgb(187, 179, 179);
 }
@@ -144,6 +144,14 @@ main {
     flex-wrap: wrap;
     font-size: 2.2em;
 }
+
+h4 {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.5em;
+        color: black;
+}
+
+
 
 /* FOOTER */
 
