@@ -98,9 +98,13 @@ for (let i = 0; i < 6; i++) {
 	projectScreenshot.append('screenshot of project');
 	project.appendChild(projectScreenshot);
 
+	const projectDescContainer = document.createElement('div');
+	projectDescContainer.classList.add('project-desc-container');
+	project.appendChild(projectDescContainer);
+
 	const projectHeader = document.createElement('div');
 	projectHeader.classList.add('project-header');
-	project.appendChild(projectHeader);
+	projectDescContainer.appendChild(projectHeader);
 
 	const projectTitle = document.createElement('h4');
 	projectTitle.append('Project name');
@@ -124,7 +128,7 @@ for (let i = 0; i < 6; i++) {
 	projectDesc.append(
 		'Short description of the project.  Just a couple sentences will do.'
 	);
-	project.appendChild(projectDesc);
+	projectDescContainer.appendChild(projectDesc);
 }
 
 /////////////////////////////////////////////////////////////
