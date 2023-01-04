@@ -215,6 +215,7 @@ footer {
         flex-direction: column;
         height: 110vh;
         padding: 5vh;
+        padding-bottom: 10vh;
     }
 }
 
@@ -227,7 +228,6 @@ footer {
     }
     .header-img, .footer-img {
         width: 80vw;
-        height: auto;
     }
     .header-container {
         margin-top: 10vh;
@@ -237,9 +237,4 @@ footer {
         width: 80vw;
         box-shadow: none;
     }
-    /* .about-me-svg {
-        background-size: 5vw;
-        height: 5vw;
-        width: 5vw;
-    } */
 }
