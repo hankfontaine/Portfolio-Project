@@ -19,7 +19,7 @@ h3 {
 
 header, footer {
     background-color: rgb(80, 117, 164);
-    background-color: rgb(67, 168, 198);
+    background-color: rgba(62, 154, 182, 0.898);
 }
 
 .header-img, .footer-img {
