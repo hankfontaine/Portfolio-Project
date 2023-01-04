@@ -215,11 +215,11 @@ footer {
         flex-direction: column;
         height: 110vh;
         padding: 5vh;
-        padding-bottom: 10vh;
+        padding-bottom: 8vh;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     body{
         /* background-color: rgb(184, 116, 116); */
     }
