@@ -110,19 +110,23 @@ for (let i = 0; i < 6; i++) {
 	projectTitle.append('Project name');
 	projectHeader.appendChild(projectTitle);
 
+	const projectLinks = document.createElement('div');
+	projectLinks.classList.add('about-me-footer');
+	projectHeader.appendChild(projectLinks);
+
 	const projectGithub = document.createElement('a');
 	projectGithub.setAttribute('href', 'https://github.com/hankfontaine/');
 	projectGithub.setAttribute('target', '_blank');
-	projectGithub.classList.add('about-me-svg');
+	projectGithub.classList.add('project-svg');
 	projectGithub.classList.add('about-me-github');
-	projectHeader.appendChild(projectGithub);
+	projectLinks.appendChild(projectGithub);
 
 	const projectLive = document.createElement('a');
 	projectLive.setAttribute('href', 'https://github.com/hankfontaine/');
 	projectLive.setAttribute('target', '_blank');
-	projectLive.classList.add('about-me-svg');
-	projectLive.classList.add('about-me-github');
-	projectHeader.appendChild(projectLive);
+	projectLive.classList.add('project-svg');
+	projectLive.classList.add('open-in-new');
+	projectLinks.appendChild(projectLive);
 
 	const projectDesc = document.createElement('div');
 	projectDesc.append(
