@@ -89,7 +89,62 @@ const projectList = document.createElement('ul');
 projectList.classList.add('project-list');
 mainContainer.appendChild(projectList);
 
-for (let i = 0; i < 6; i++) {
+/////////////////////////////////////////////////////////////
+///////////////// CALCULATOR PROJECT ////////////////////////
+/////////////////////////////////////////////////////////////
+
+let calcProject = document.createElement('li');
+calcProject.classList.add('project-container');
+projectList.appendChild(calcProject);
+
+const calcProjectScreenshot = document.createElement('div');
+calcProjectScreenshot.classList.add('project-screenshot');
+calcProjectScreenshot.classList.add('calculator-screenshot');
+calcProject.appendChild(calcProjectScreenshot);
+
+const calcProjectDescContainer = document.createElement('div');
+calcProjectDescContainer.classList.add('project-desc-container');
+calcProject.appendChild(calcProjectDescContainer);
+
+const calcProjectHeader = document.createElement('div');
+calcProjectHeader.classList.add('project-header');
+calcProjectDescContainer.appendChild(calcProjectHeader);
+
+const calcProjectTitle = document.createElement('h3');
+calcProjectTitle.append('Calculator');
+calcProjectHeader.appendChild(calcProjectTitle);
+
+const calcProjectLinks = document.createElement('div');
+calcProjectLinks.classList.add('about-me-footer');
+calcProjectHeader.appendChild(calcProjectLinks);
+
+const calcProjectGithub = document.createElement('a');
+calcProjectGithub.setAttribute(
+	'href',
+	'https://github.com/hankfontaine/Calculator'
+);
+calcProjectGithub.setAttribute('target', '_blank');
+calcProjectGithub.classList.add('project-svg');
+calcProjectGithub.classList.add('about-me-github');
+calcProjectLinks.appendChild(calcProjectGithub);
+
+const calcProjectLive = document.createElement('a');
+calcProjectLive.setAttribute(
+	'href',
+	'https://hankfontaine.github.io/Calculator/'
+);
+calcProjectLive.setAttribute('target', '_blank');
+calcProjectLive.classList.add('project-svg');
+calcProjectLive.classList.add('open-in-new');
+calcProjectLinks.appendChild(calcProjectLive);
+
+const calcProjectDesc = document.createElement('div');
+calcProjectDesc.append(
+	'An AmEx inspired calculator, built with vanilla JavaScript.'
+);
+calcProjectDescContainer.appendChild(calcProjectDesc);
+
+for (let i = 0; i < 5; i++) {
 	let project = document.createElement('li');
 	project.classList.add('project-container');
 	projectList.appendChild(project);

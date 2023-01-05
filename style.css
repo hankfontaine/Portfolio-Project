@@ -156,6 +156,12 @@ main {
     font-size: 2.2em;
 }
 
+.calculator-screenshot {
+        background-image: url('./images/Calculator.jpg');
+        background-size: 40vh;
+    
+}
+
 .project-header {
     display: flex;
     align-items: center;
