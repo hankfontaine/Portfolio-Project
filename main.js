@@ -200,10 +200,65 @@ krustyProjectDesc.append(
 krustyProjectDescContainer.appendChild(krustyProjectDesc);
 
 /////////////////////////////////////////////////////////////
+/////////////////// LIBRARY PROJECT /////////////////////////
+/////////////////////////////////////////////////////////////
+
+let libraryProject = document.createElement('li');
+libraryProject.classList.add('project-container');
+projectList.appendChild(libraryProject);
+
+const libraryProjectScreenshot = document.createElement('div');
+libraryProjectScreenshot.classList.add('project-screenshot');
+libraryProjectScreenshot.classList.add('library-screenshot');
+libraryProject.appendChild(libraryProjectScreenshot);
+
+const libraryProjectDescContainer = document.createElement('div');
+libraryProjectDescContainer.classList.add('project-desc-container');
+libraryProject.appendChild(libraryProjectDescContainer);
+
+const libraryProjectHeader = document.createElement('div');
+libraryProjectHeader.classList.add('project-header');
+libraryProjectDescContainer.appendChild(libraryProjectHeader);
+
+const libraryProjectTitle = document.createElement('h3');
+libraryProjectTitle.append(`Library App`);
+libraryProjectHeader.appendChild(libraryProjectTitle);
+
+const libraryProjectLinks = document.createElement('div');
+libraryProjectLinks.classList.add('about-me-footer');
+libraryProjectHeader.appendChild(libraryProjectLinks);
+
+const libraryProjectGithub = document.createElement('a');
+libraryProjectGithub.setAttribute(
+	'href',
+	'https://github.com/hankfontaine/Library-App'
+);
+libraryProjectGithub.setAttribute('target', '_blank');
+libraryProjectGithub.classList.add('project-svg');
+libraryProjectGithub.classList.add('about-me-github');
+libraryProjectLinks.appendChild(libraryProjectGithub);
+
+const libraryProjectLive = document.createElement('a');
+libraryProjectLive.setAttribute(
+	'href',
+	'https://hankfontaine.github.io/Library-App/'
+);
+libraryProjectLive.setAttribute('target', '_blank');
+libraryProjectLive.classList.add('project-svg');
+libraryProjectLive.classList.add('open-in-new');
+libraryProjectLinks.appendChild(libraryProjectLive);
+
+const libraryProjectDesc = document.createElement('div');
+libraryProjectDesc.append(
+	`A simple CRUD app and a fun way to track what you're readin'.`
+);
+libraryProjectDescContainer.appendChild(libraryProjectDesc);
+
+/////////////////////////////////////////////////////////////
 ///////////////////// TEMP PROJECTS /////////////////////////
 /////////////////////////////////////////////////////////////
 
-for (let i = 0; i < 4; i++) {
+for (let i = 0; i < 3; i++) {
 	let project = document.createElement('li');
 	project.classList.add('project-container');
 	projectList.appendChild(project);

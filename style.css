@@ -169,6 +169,13 @@ main {
 
 }
 
+.library-screenshot {
+    background-image: url('./images/library.jpg');
+    background-size: 46vh;
+    background-position: 58% 10%;
+
+}
+
 .project-header {
     display: flex;
     align-items: center;
