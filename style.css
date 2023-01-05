@@ -158,8 +158,15 @@ main {
 
 .calculator-screenshot {
         background-image: url('./images/Calculator.jpg');
-        background-size: 40vh;
-    
+        background-size: 48vh;
+        background-position: 50% 50%;
+}
+
+.krusty-screenshot {
+    background-image: url('./images/krusty.jpg');
+    background-size: 50vh;
+    background-position: 58% 58%;
+
 }
 
 .project-header {
